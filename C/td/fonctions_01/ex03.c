@@ -7,11 +7,8 @@ double aire(double largeur, double hauteur)
 
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	(void)argv;
-
-	double largeur;
-	double hauteur;
+	(void)argc,argv;
+	double largeur,hauteur;
 
 	printf("Largeur du rectangle: ");
 	scanf("%lf", &largeur);
