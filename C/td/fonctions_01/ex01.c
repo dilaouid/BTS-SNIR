@@ -8,11 +8,9 @@ double convertisseur(double euro)
 
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	(void)argv;
+	(void)argc, argv;
 
-	double euro;
-	double francs;
+	double euro, francs;
 
 	printf("Nombre d'euro à convertir en francs: ");
 	scanf("%lf", &euro);
